@@ -19,8 +19,8 @@ Este projeto fornece um ambiente pronto para executar um **servidor Minecraft Fo
 Clone o repositório e navegue até a pasta:
 
 ```bash
-git clone https://github.com/seu-usuario/seu-repo.git
-cd seu-repo
+git clone https://github.com/Zagari/minecraft-forge-docker
+cd minecraft-forge-docker
 ```
 
 ### 1. Coloque os Mods
