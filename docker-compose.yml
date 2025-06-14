@@ -1,0 +1,16 @@
+services:
+  forge:
+    build: .
+    container_name: forge-server
+    dns:
+      - 8.8.8.8
+      - 1.1.1.1
+    ports:
+      - "25565:25565"
+    volumes:
+      - ./mods:/minecraft/mods`1
+      - ./world:/minecraft/world
+      - ./eula.txt:/minecraft/eula.txt
+    stdin_open: true
+    tty: true
+    restart: unless-stopped

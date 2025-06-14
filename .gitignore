@@ -1,0 +1,38 @@
+# Arquivos Forge e Minecraft proprietários
+*.jar
+!start.sh
+
+# Mundo do servidor (opcional manter localmente)
+world/
+world_nether/
+world_the_end/
+
+# Mods (não versionar por padrão)
+mods/
+
+# Arquivo de aceite do EULA
+eula.txt
+
+# Arquivos temporários e cache
+*.log
+*.log.gz
+*.pid
+*.backup
+*.tmp
+*.swp
+*.swo
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+
+# Diretórios ocultos de IDEs/editores
+.vscode/
+.idea/
+
+# Arquivos de build Docker (opcional)
+forge-server/
+
+# Arquivos de ambiente
+.env
+.env.*
