@@ -10,5 +10,6 @@ sed -i 's/online-mode=false/online-mode=true/' server.properties 2>/dev/null || 
 #else
 #    echo "Erro: Arquivo forge-*.jar não encontrado."
 #    exit 1
+# fi
 ./run.sh
-fi
+
